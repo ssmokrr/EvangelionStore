@@ -1,0 +1,52 @@
+/*untuk header*/
+.main-nav {
+    background-color: #6305a1;
+}
+.main-nav .navbar-nav a.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link:hover {
+    color: #FF7900;
+}
+.navbar.scrolled {
+    background-color: #FF7900;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #fff;
+}
+.navbar.scrolled a.nav-link {
+    color: #141414;
+}
+
+/*untuk global*/
+.main-ungu {
+    background-color: #240046;
+    color: #fff;
+}
+.main-ungu h2 {
+    color: #ef271b;
+}
+button.btn-success {
+    background-color: #17b890;
+}
+h1.main-judul::after {
+    margin:auto;
+    margin-top: 20px;
+    display:block;
+    border-bottom:10px solid #17b890;
+    width: 100px;
+    border-radius: 20px;
+    content: "";
+}
+
+/*untuk bagian produk*/
+#main-produk img {
+    max-height: 500px;
+    max-width: 300px;
+}
+#main-produk a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
